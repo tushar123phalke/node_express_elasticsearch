@@ -1,0 +1,46 @@
+.webex-manager-cls {
+  height: 100%;
+  a {
+    display: flex;
+  }
+  .logo-cls {
+    width: 153px;
+    height: 44px;
+  }
+  .user-logo-cls {
+    height: 45px;
+    width: 45px;
+    margin-left: 35px;
+  }
+  .card {
+    height: 90%;
+    .d-flex {
+      height: 100%;
+      .tab-content {
+        height: 100%;
+        width: 90%;
+        padding: 20px;
+        background: #ebf1eb;
+      }
+    }
+  }
+  .card-body {
+    height: 90%;
+  }
+
+  .team-block  {
+    height: 100px;
+    background: #a0ddd5;
+    border-radius: 4%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px lightseagreen;
+    button {
+      height: 100%;
+    }
+  }
+
+  #v-pills-profile {
+    height: 100%;
+    overflow: scroll;
+  }
+}
